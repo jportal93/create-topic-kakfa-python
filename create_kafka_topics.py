@@ -52,7 +52,7 @@ def main():
         create_topics(admin_client, topics)
         print("Tópicos creados con éxito.")
     except Exception as e:
-        print(f"Error al crear los tópicos: {e}")
+        print(f"error: {e}")
     finally:
         admin_client.close()
 
